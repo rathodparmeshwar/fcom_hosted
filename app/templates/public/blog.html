@@ -1,0 +1,216 @@
+{% extends "public/templates/public_template.html" %} {% block title %}Home {% endblock %} {% block main %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/blog.css') }}">
+
+<body data-spy="scroll" data-target=".navbar">
+
+
+
+    <section id="Home6">
+        <div class="container ">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-white">Blog</h1>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="blogimg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 ">
+                    <img src="{{ url_for('static', filename='img/blog1.png') }}" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 mt-5">
+                    <div>
+                        <b class="category">category</b>
+                        <h3 class="blogh1">Blog title heading will go here</h3>
+                        <p class="para12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, mollitia!</p>
+                        <div class=" mt-5">
+                            <div class=" d-flex">
+                                <div class="image5">
+                                    <img src="{{ url_for('static', filename='img/blog2.png') }}" alt="">
+                                </div>
+                                <p class=" para13">Cameron Williamson
+
+                                </p>
+                                <p class="para13">11 jan 2022 . 5 min read</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="categories">
+        <div class="container-fluid mt-6">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-2 p-2 d-flex m-1">
+                            <b class="category1 "><a class="cat1" href="">View all</a></b>
+                        </div>
+                        <div class="col-lg-2 col-md-2 p-2 d-flex m-1">
+                            <b class="category1"><a href="">category1</a></b>
+                        </div>
+                        <div class="col-lg-2 col-md-2 p-2 d-flex m-1">
+                            <b class="category1"><a href="">category2</a></b>
+                        </div>
+                        <div class="col-lg-2 col-md-2 p-2 d-flex m-1">
+                            <b class="category1"><a href="">category3</a></b>
+                        </div>
+                        <div class="col-lg-2 col-md-2 p-2 d-flex m-1">
+                            <b class="category1"><a href="">category4</a></b>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Policies">
+        <div class="Policies mt-6">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4 mt-2">
+                        <img src="{{ url_for('static', filename='img/category1.png') }}" alt="">
+                        <div>
+                            <b class="category">category</b>
+                            <h3 class="blogh2">Blog title heading will go here</h3>
+                            <p class="para12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, mollitia!</p>
+                            <div class=" mt-2">
+                                <div class=" d-flex">
+                                    <div class="image5">
+                                        <img src="{{ url_for('static', filename='img/blog2.png') }}" alt="">
+                                    </div>
+                                    <p class=" para13">Geoffrey Mott
+
+                                    </p>
+                                    <p class="para13">11 jan 2022 . 5 min read</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-2">
+                        <img src="{{ url_for('static', filename='img/category2.png') }}" alt="">
+                        <div>
+                            <b class="category">category</b>
+                            <h3 class="blogh2">Blog title heading will go here</h3>
+                            <p class="para12">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, mollitia!</p>
+                            <div class=" mt-2">
+                                <div class=" d-flex">
+                                    <div class="image5">
+                                        <img src="{{ url_for('static', filename='img/blog3.png') }}" alt="">
+                                    </div>
+                                    <p class=" para13">Titus Kitamura
+
+                                    </p>
+                                    <p class="para13">11 jan 2022 . 5 min read</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-2">
+
+                        <img src={{ url_for( 'static', filename='img/category3.png' ) }} " alt=" ">
+                        <div>
+                            <b class="category ">category</b>
+                            <h3 class="blogh2 ">Blog title heading will go here</h3>
+                            <p class="para12 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, mollitia!</p>
+                            <div class=" mt-2 ">
+                                <div class=" d-flex ">
+                                    <div class="image5 ">
+                                        <img src="{{ url_for( 'static', filename='img/blog4.png' ) }} " alt=" ">
+                                    </div>
+                                    <p class=" para13 ">Benny Spanbauer
+
+                                    </p>
+                                    <p class="para13 ">11 jan 2022 . 5 min read</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-2 ">
+
+                        <img src="{{ url_for( 'static', filename='img/category4.png' ) }} " alt=" ">
+                        <div>
+                            <b class="category ">category</b>
+                            <h3 class="blogh2 ">Blog title heading will go here</h3>
+                            <p class="para12 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, mollitia!</p>
+                            <div class=" mt-2 ">
+                                <div class=" d-flex ">
+                                    <div class="image5 ">
+                                        <img src="{{ url_for( 'static', filename='img/blog5.png' ) }} " alt=" ">
+                                    </div>
+                                    <p class=" para13 ">Edgar Torrey
+
+                                    </p>
+                                    <p class="para13 ">11 jan 2022 . 5 min read</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-2 ">
+
+                        <img src="{{ url_for( 'static', filename='img/category5.png' ) }} " alt=" ">
+                        <div>
+                            <b class="category ">category</b>
+                            <h3 class="blogh2 ">Blog title heading will go here</h3>
+                            <p class="para12 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, mollitia!</p>
+                            <div class=" mt-2 ">
+                                <div class=" d-flex ">
+                                    <div class="image5 ">
+                                        <img src="{{ url_for( 'static', filename='img/blog6.png' ) }} " alt=" ">
+                                    </div>
+                                    <p class=" para13 ">Elmer Laverty
+
+                                    </p>
+                                    <p class="para13 ">11 jan 2022 . 5 min read</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mt-2 ">
+
+                        <img src="{{ url_for( 'static', filename='img/category6.png' ) }} " alt=" ">
+                        <div>
+                            <b class="category ">category</b>
+                            <h3 class="blogh2 ">Blog title heading will go here</h3>
+                            <p class="para12 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, mollitia!</p>
+                            <div class=" mt-2 ">
+                                <div class=" d-flex ">
+                                    <div class="image5 ">
+                                        <img src="{{ url_for( 'static', filename='img/blog7.png' ) }} " alt=" ">
+                                    </div>
+                                    <p class=" para13 ">Merrill Kervin
+
+                                    </p>
+                                    <p class="para13 ">11 jan 2022 . 5 min read</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+
+</body>
+
+{% endblock %}

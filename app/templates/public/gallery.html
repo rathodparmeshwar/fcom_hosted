@@ -1,0 +1,53 @@
+{% extends "public/templates/public_template.html" %} {% block title %} Gallery{% endblock %} {% block main %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/gallery.css') }}">
+
+
+<section id="Home1">
+    <div class="container ">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="text-white">Gallery</h1>
+                <p class="text-white">For us doing good work is non negotiable</p>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="gallery">
+    <div class="gallery">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 mt-5 text-center">
+                    <a href="#women" class="mt-2 para14">Women</a><br>
+                    <a href="#men" class="mt-2 para14">men</a><br>
+                    <a href="#kid" class="mt-2 para14">kid</a><br>
+                    <a href="#general" class="mt-2 para14"> General</a>
+
+                    <div class="mt-5">
+                        <div class="sidebar">
+                            <h6 class="text-center h6">Want to know more?</h6>
+                            <p class="para14">call us at</p>
+                            <p class="para14">+91 9108902222
+                            </p>
+                            <p class="para14">or</p>
+                            <button class="btn1" type="button"> Request call back</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <img src="{{ url_for('static', filename='img/women1.png') }}" class="women1" alt="">
+                    <img src="{{ url_for('static', filename='img/women2.png') }}" class="women2" alt="">
+                    <img src="{{ url_for('static', filename='img/women3.png') }}" class="women3" alt="">
+                    <img src="{{ url_for('static', filename='img/women4.png') }}" class="women4" alt="">
+                    <img src="{{ url_for('static', filename='img/women7.png') }}" class="women7" alt="">
+                    <img src="{{ url_for('static', filename='img/women5.png') }}" class="women5" alt="">
+                    <img src="{{ url_for('static', filename='img/women6.png') }}" class="women6" alt="">
+                    <img src="{{ url_for('static', filename='img/women7.png') }}" class="women7" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

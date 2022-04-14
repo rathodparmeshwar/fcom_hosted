@@ -1,0 +1,90 @@
+{% extends "public/templates/public_template.html" %} {% block title %}Home {% endblock %} {% block main %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/contact.css') }}">
+
+<body data-spy="scroll" data-target=".navbar">
+
+
+    <section id="Home5">
+        <div class="container ">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="text-white">Contact Us</h1>
+                    <p class="text-white">We are always just a call/email away</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 ">
+                    <h1>How can we Help?</h1>
+                    <p class="para7">Our team was handpicked for their understanding of materials, process and passion for fashion. Whether you are browsing our site or visiting our store, we are always willing to share our deep knowledge and understanding of our makers
+                        and their craft.</p>
+                    <p class="para7"> You can check our FAQs section page or contact us by filling the form or calling our customer service team</p>
+                    <div class="row">
+                        <div class="text-center col-md-6 mt-2">
+                            <div class="check">
+                                <div class="iconbox1">
+                                    <i class='bx bx-help-circle'></i>
+                                </div>
+                                <p class="para8">Check our frequesntly asked questions to know more about inquiries</p>
+                                <button>visit FAQs</button>
+
+
+                            </div>
+
+                        </div>
+                        <div class=" text-center col-md-6 mt-2">
+                            <div class="check">
+                                <div class="iconbox1">
+                                    <i class='bx bx-phone-outgoing'></i>
+                                </div>
+                                <p class="para8 text-center">Check our frequesntly asked questions to know more about inquiries</p>
+                                <button>visit FAQs</button>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="worktimings text-center mt-5">
+                        <h6 class="h6">working hours</h6>
+                        <div class="iconbox1" style="float: left;">
+                            <i class='bx bx-time-five'></i>
+                        </div>
+                        <p class="text-center" style="color: rgba(0, 0, 0, 0.6);"> MON – FRI 9:00AM – 7:00PM IST </p>
+                        <p class="text-center" style="color: rgba(0, 0, 0, 0.6);">SAT – SUN 9:00AM – 6:00PM IST</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 leave">
+                    <div class="leavequestions">
+                        <h1>Leave a Questions</h1>
+                        <label>Name:</label>
+                        <input type="text" class="form-control" id="name">
+                        <label>Mobile:</label>
+                        <input type="number" class="form-control" id="number">
+                        <label class="form-group"> Message</label>
+                        <textarea name="message" class="form-control" id="" cols="25" rows="8"></textarea>
+                        <button type="submit" class="btn form-control" style="background: #F28077;
+                        border-radius: 4px;
+                        ">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="location">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-">
+                    <img src="{{ url_for('static', filename='img/location.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+{% endblock %}
