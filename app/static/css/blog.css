@@ -86,17 +86,17 @@ p {
 }
 
 .para13 {
-    width: 100%;
     font-family: 'Futura';
     font-size: 14px;
     line-height: 150%;
     /* identical to box height, or 21px */
     /* black 60 */
+    display: flex;
     color: rgba(0, 0, 0, 0.6);
 }
 
 .blogh1 {
-    width: 100%;
+    width: auto;
     font-family: 'Didot';
     font-style: normal;
     font-weight: 700;
@@ -108,7 +108,7 @@ p {
 }
 
 .blogh2 {
-    width: 100%;
+    width: auto;
     font-family: 'Didot';
     font-style: normal;
     font-weight: 700;
@@ -139,4 +139,10 @@ p {
 
 .cat {
     color: #F28077;
+}
+
+.image5 {
+    width: 48px;
+    height: 48px;
+    border-radius: 500px;
 }

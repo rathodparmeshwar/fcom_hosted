@@ -111,10 +111,36 @@ p {
 }
 
 .answer {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 72px;
+    width: 484px;
+    height: 216px;
+    top: 89px;
+    /* primary 5 */
     background: rgba(242, 128, 119, 0.05);
     border-radius: 16px;
 }
 
-.btn {
+.btn8 {
     border: 2px solid black;
+}
+
+.plus {
+    color: black;
+}
+
+.p9 {
+    font-family: 'Futura';
+    font-size: 18px;
+    line-height: 16px;
+    /* identical to box height, or 89% */
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.plus1 {
+    color: #F28077;
 }

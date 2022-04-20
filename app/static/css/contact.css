@@ -75,6 +75,20 @@ p {
     letter-spacing: -0.015em;
 }
 
+.cnh1 {
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 52px;
+    /* identical to box height, or 100% */
+    align-items: center;
+    letter-spacing: -0.015em;
+    /* White */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
 .para7 {
     font-family: 'Futura';
     font-style: normal;
@@ -92,8 +106,8 @@ p {
 }
 
 .check {
-    width: fit-content;
-    background: hsl(0, 30%, 83%);
+    width: 270px;
+    background: #FFFFFF;
     box-shadow: 0px 16px 60px rgba(242, 128, 119, 0.1);
     border-radius: 16px;
 }
@@ -107,6 +121,8 @@ p {
     line-height: 20px;
     /* or 125% */
     /* black 60 */
+    align-items: center;
+    text-align: center;
     color: rgba(0, 0, 0, 0.6);
     /* Inside auto layout */
 }
@@ -121,4 +137,58 @@ p {
     text-align: center;
     letter-spacing: -0.015em;
     color: #F28077;
+}
+
+.hh1 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+    /* Mono / Black */
+    color: #000000;
+}
+
+.worktimings {
+    background: #FFFFFF;
+    box-shadow: 0px 16px 60px rgba(242, 128, 119, 0.1);
+    border-radius: 16px;
+}
+
+.p10 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    /* black 60 */
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.l1 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    letter-spacing: 1px;
+    /* Black */
+    color: #000000;
+}
+
+.wh6 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    /* identical to box height, or 225% */
+    text-align: center;
+    /* Black */
+    color: #000000;
 }

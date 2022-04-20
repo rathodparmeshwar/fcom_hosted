@@ -68,7 +68,7 @@ section {
     height: 900px;
 }
 
-.btn {
+.btn6 {
     font-family: 'Futura';
     font-size: 16px;
     line-height: 150%;
@@ -105,7 +105,7 @@ section {
     color: #F28077;
 }
 
-.para6 {
+.p8 {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -118,7 +118,6 @@ section {
 }
 
 .para {
-    width: 839px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -128,11 +127,6 @@ section {
     /* black 60 */
     color: rgba(0, 0, 0, 0.6);
     /* Inside auto layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 8px 0px;
 }
 
 .h2 {
@@ -217,6 +211,15 @@ p {
     line-height: 20px;
     /* or 125% */
     letter-spacing: -0.015em;
+    /* Black */
+    color: #000000;
+}
+
+.p9 {
+    font-family: 'Futura';
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
     /* Black */
     color: #000000;
 }

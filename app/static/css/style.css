@@ -82,6 +82,18 @@ section {
     color: #FFFFFF;
 }
 
+.hlink {
+    font-family: 'Futura';
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #0c0b0b;
+    /* Inside auto layout */
+}
+
 .st1 {
     color: #FFFFFF;
 }
@@ -121,12 +133,11 @@ section {
 }
 
 .serviceh3 {
-    width: 283px;
     font-family: 'Didot';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
-    line-height: 72px;
+    line-height: 50px;
     /* or 200% */
     align-items: center;
     text-align: center;
@@ -163,6 +174,7 @@ section {
 }
 
 .whatsapp {
+    text-decoration: none;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -176,9 +188,9 @@ section {
 }
 
 .para {
+    width: auto;
     font-family: 'Futura';
     font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 20px;
     /* or 143% */
@@ -229,6 +241,8 @@ section {
 }
 
 .choose {
+    padding: 40px;
+    margin: auto;
     background: #FFFFFF;
     box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.08);
     border-radius: 16px;
@@ -240,8 +254,6 @@ section {
     font-weight: 700;
     font-size: 24px;
     line-height: 20px;
-    align-items: center;
-    text-align: center;
     letter-spacing: -0.015em;
     color: #F28077;
 }
@@ -261,6 +273,7 @@ section {
 }
 
 .link {
+    text-decoration: none;
     width: 28px;
     font-family: 'Futura';
     font-size: 14px;
@@ -380,7 +393,38 @@ p {
     color: #F28077;
 }
 
+.btn7 {
+    width: 105px;
+    height: 48px;
+    /* or 214% */
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    background: #F28077;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    font-family: 'Futura';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.polh1 {
+    font-family: 'Didot';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 52px;
+    /* identical to box height, or 100% */
+    align-items: center;
+    letter-spacing: -0.015em;
+    /* White */
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
 .links {
+    text-decoration: none;
     width: 210px;
     font-family: 'Futura';
     font-size: 14px;
@@ -408,6 +452,7 @@ p {
     position: absolute;
     width: 75px;
     color: #F28077;
+    object-fit: contain;
 }
 
 .para4 {
@@ -435,10 +480,21 @@ p {
     color: #FFFFFF;
 }
 
-.place {
+.place1 {
+    height: 48px;
     background: #FFFFFF;
     border-radius: 4px;
-    width: 309px;
+    width: 317px;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    font-family: 'Futura';
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    align-items: center;
+    /* black 40 */
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .btn4 {
@@ -461,13 +517,30 @@ p {
     color: #000000;
 }
 
-#services {
+.services {
     background: rgba(242, 128, 119, 0.05);
     width: 100%;
 }
 
+@media screen and (max-width: 750px) {
+    .fcomimg {
+        width: 127px;
+    }
+}
+
+.services2 {
+    font-family: 'Futura';
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    /* Primary */
+    color: #F28077;
+}
+
 .btn {
-    border: 2px solid black;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -525,9 +598,6 @@ p {
 }
 
 .para20 {
-    border: 2px dashed #F28077;
-    box-sizing: border-box;
-    border-radius: 8px;
     font-family: 'Futura';
     font-size: 18px;
     line-height: 20px;
@@ -537,11 +607,32 @@ p {
     color: #F28077;
 }
 
+.box5 {
+    background: #FFFFFF;
+    border: 2px dashed #F28077;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
 .para19 {
     font-family: 'Futura';
     font-size: 24px;
     line-height: 32px;
     /* or 133% */
+    letter-spacing: -0.015em;
+    /* Black */
+    color: #000000;
+}
+
+.services1 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    align-items: center;
+    text-align: center;
     letter-spacing: -0.015em;
     /* Black */
     color: #000000;
@@ -575,8 +666,7 @@ p {
     color: #F28077;
 }
 
-.para11 {
-    width: 517px;
+.para9 {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -584,19 +674,140 @@ p {
     line-height: 32px;
     /* or 160% */
     letter-spacing: -0.015em;
+    /* Black */
+    color: #000000;
+}
+
+.str1 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    letter-spacing: -0.015em;
+    /* Black */
+    color: #000000;
+}
+
+.para25 {
+    text-decoration: none;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    /* Black */
+    color: #000000;
+}
+
+.cmh6 {
+    width: auto;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+    /* Black */
+    color: #000000;
+}
+
+.p1 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    align-items: center;
+    letter-spacing: -0.015em;
+    /* White */
+    color: #FFFFFF;
+}
+
+.p2 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.p3 {
+    font-family: 'Futura';
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
     /* black 60 */
     color: rgba(0, 0, 0, 0.6);
 }
 
-.para10 {
-    width: 1233px;
+.p4 {
+    font-family: 'Futura';
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.p5 {
+    width: auto;
+    font-family: 'Futura';
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.p6 {
     font-family: 'Futura';
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    /* or 133% */
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    align-items: center;
     letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.p7 {
+    width: auto;
+    font-family: 'Futura';
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    /* black 60 */
+    color: rgba(0, 0, 0, 0.6);
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.p8 {
+    font-family: 'Futura';
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
     /* Black */
     color: #000000;
 }

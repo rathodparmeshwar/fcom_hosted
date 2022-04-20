@@ -117,7 +117,7 @@ p {
 }
 
 .para10 {
-    width: 1233px;
+    width: 100%;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -126,5 +126,32 @@ p {
     /* or 133% */
     letter-spacing: -0.015em;
     /* Black */
+    align-items: center;
     color: #000000;
+}
+
+.careh1 {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 72px;
+    /* identical to box height, or 200% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    /* Black */
+    color: #000000;
+}
+
+.call {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 88px;
+    width: 553px;
+    height: 132px;
+    top: 2900px;
+    background: #FFF4F4;
+    border-radius: 16px;
 }
